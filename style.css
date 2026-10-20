@@ -1,8 +1,168 @@
 *{
     padding: 0;
-}.ul1 {
-    li {
-        list-style: none;
-        list-style-type: square;
+    margin: 0;
+}
+@font-face {
+    font-family: lato;
+    src: url("./Lato-Bold.ttf");
+}
+.div1 {
+    display: flex;
+    height: 70px;
+    border: 2px solid;
+    position: relative;
+    .divleft {
+        background-color: blueviole;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            list-style: none;
+            font-size: larger;
+            font-family: lato;
+            li {
+                color: #5C5E4E;
+                a {
+                    color: #5C5E4E;
+                }
+            }
+        }
+
+    }
+    .divright {
+        background-color: blueviole;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        h1 {font-family: lato;}
+    }
+    .divfarr {
+        background-color: blueviole;
+        width: 300px;
+        height: 100%;
+        margin-left: 350px;
+        font-family: lato;
+        display: flex;
+        gap: 150px;
+        align-items: center;
+        i {
+            font-size: xx-large;
+            a {font-size: large;}
+            display: flex;
+        }
+        .a1 {
+            font-size: xx-small;
+        }
+    }
+}
+.h11 {
+    text-align: center;
+    font-family: lato;
+    margin-top: 30px;
+}
+.card {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    .card1 {
+        width: 350px;
+        height: 600px;
+        border: 2px solid;
+        margin-top: 30px;
+        overflow: hidden;
+        img {
+            width: 350px;
+        }
+            button {
+            width: 350px;
+            height: 75px;
+            object-fit: cover;
+            background-color: #000000;
+            border: none;
+            color: #E0E1E1;
+            font-size: large;
+            font-family: lato;
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+    .card2 {
+        width: 350px;
+        height: 600px;
+        border: 2px solid;
+        margin-top: 30px;
+        display: flex;
+        display: inline;
+        justify-content: bottom;
+        align-items: center;
+    
+        img {
+            width: 350px;
+            object-fit: cover;
+            height: 525px;
+        }
+        button {
+            width: 350px;
+            height: 75px;
+            object-fit: cover;
+            background-color: #000000;
+            border: none;
+            color: #E0E1E1;
+            font-size: large;
+            font-family: lato;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .card3 {
+        width: 350px;
+        height: 600px;
+        border: 2px solid;
+        margin-top: 30px;
+        img {
+             width: 350px;
+            object-fit: cover;
+            height: 525px;
+        }
+        button {
+            width: 350px;
+            height: 75px;
+            object-fit: cover;
+            background-color: #000000;
+            border: none;
+            color: #E0E1E1;
+            font-size: large;
+            font-family: lato;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .card4 {
+        width: 350px;
+        height: 600px;
+        border: 2px solid;
+        margin-top: 30px;
+         img {
+             width: 350px;
+            object-fit: cover;
+            height: 525px;
+        }
+        button {
+            width: 350px;
+            height: 75px;
+            object-fit: cover;
+            background-color: #000000;
+            border: none;
+            color: #E0E1E1;
+            font-size: large;
+            font-family: lato;
+            display: flex;
+            align-items: center;
+        }
     }
 }
